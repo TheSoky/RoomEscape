@@ -40,6 +40,12 @@ private:
 	//Called when Grab key is released
 	void Release();
 
+	//Returns current start of reach line
+	FVector GetReachLineStart();
+
+	//Returns current end of reach line
+	FVector GetReachLineEnd();
+
 	//Find attached Physics Handler
 	void FindPhysicsHandlerComponent();
 
